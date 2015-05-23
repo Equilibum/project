@@ -1,0 +1,129 @@
+.upmenu{
+    width: 186px;
+    height: 125px;
+    border: 2px solid rgba(0, 0, 0, 0.5);;
+    border-bottom: none;
+    padding-top: 15px;
+}
+
+.upmenuq{
+    width: 186px;
+    height: 240px;
+    border: 2px solid rgba(0, 0, 0, 0.5);;
+    border-bottom: none;
+    padding-top: 15px;
+}
+
+.upmenuq input{
+    margin: 1px 5px;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.upmenuq label{
+    color: gray;
+    margin-left: 5px;
+}
+
+.downmenu{
+    width: 190px;
+}
+
+.upmenu input{
+    margin: 1px 5px;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.upmenu label{
+    color: gray;
+    margin-left: 5px;
+}
+
+.downmenu input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.downmenu input:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    padding: 3px;
+    color: white;
+    width: 10%;
+    border: 1px solid gray;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li:nth-child(2){
+    border-top: none;
+    border-bottom: none;
+}
+li:hover{
+    background-color: gray;
+}
+
+a:hover{
+    color: white;
+}
+
+.dmenu{
+    width: 150px;
+}
+
+textarea{
+    margin: 1px 5px;
+    margin-bottom: 20px;
+    padding: 2px;
+    width: 168px;
+    max-width: 168px;
+}
+
+.dmenu input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.dmenu input:hover{
+    cursor: pointer;
+}
+
+.show{
+    width: 100px;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+}
+
+.showup{
+    width: 100px;
+    height: 20px;
+    border-bottom: 1px solid black;
+}
+.showdown{
+    width: 100px;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.showdown img{
+    width: 100%;
+}
